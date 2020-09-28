@@ -15,9 +15,12 @@
     "@types/styled-components": "^5.1.2",
     "hookrouter": "^1.2.3",
     "lodash": "^4.17.20",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
+    "react-svg": "^11.0.41",
     "styled-components": "^5.1.1",
     "typescript": "~3.7.2"
   },

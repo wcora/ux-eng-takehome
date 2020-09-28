@@ -1,0 +1,81 @@
+.card--detail{
+  .card--header{
+    width: 100%;
+    .avatar {
+      border-radius: 50%;
+      width: 16px;
+    }
+    &:hover{
+      opacity: 0.4;
+    }
+    svg{
+      float: right;
+    }
+    transition: all 100ms ease-in-out;
+  }
+  section {
+    width: 100%;
+    .card--body--info{
+      font-size: 0.9rem;
+      line-height: 1.4rem;
+      margin-bottom: 0;
+      font-weight: 300;
+    }
+    .break{
+      width: 90%;
+      height: 0;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #FFEADB;
+    }
+    h4 {
+      font-size: 1rem;
+      padding-left: 0.5rem;
+    }
+    .card--body--attendee {
+      margin-top: 0.5rem;
+      display: flex;
+      justify-content: center;
+      img {
+        border-radius: 100%;
+        width: 18%;
+        padding: 0.5rem;
+        float: left;
+      }
+      &--info{
+        float: left;
+        width: 50%;
+        margin: 1rem 0 0 0.5rem;
+        h6 {
+          font-size: 1rem;
+          padding-bottom: 0.5rem;
+        }
+      }
+    }
+    .card--body--buttons {
+      .btn{
+        background-color: #6A76E8;
+        border: none;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        outline:none;
+        &:hover{
+          opacity: 0.9;
+        }
+        &--prev{
+          float: left;
+        }
+        &--next{
+          float: right;
+        }
+        transition: all 200ms ease-in-out;
+      }
+    }
+  }
+}
+
+.minor--text {
+  font-size: 0.7rem;
+  opacity: 0.7;
+}

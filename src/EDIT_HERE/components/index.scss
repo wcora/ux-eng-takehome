@@ -1,0 +1,7 @@
+.timeline.active {
+  animation: changeColor 1s infinite;
+}
+@keyframes changeColor {
+  0%, 100% {background-color: #6A76E8;}
+  50% {background-color: #FF9A76;}
+}

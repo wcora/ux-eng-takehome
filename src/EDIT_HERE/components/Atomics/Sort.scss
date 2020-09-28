@@ -1,0 +1,25 @@
+.sort {
+  svg{
+    float: right;
+  }
+  ul {
+    z-index: 10;
+    list-style: none;
+    li {
+      line-height: 1.5rem;
+      font-size: 0.8rem;
+      padding: 0.5rem;
+      background-color: #252940;
+      &.active, &:hover{
+        background-color: #6A76E8;
+      }
+      transition: all 200ms ease-in-out;
+    }
+    li:first-of-type {
+      border-radius: 4px 4px 0 0;
+    }
+    li:last-of-type {
+      border-radius: 0 0 4px 4px;
+    }
+  }
+}

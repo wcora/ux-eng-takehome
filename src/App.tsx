@@ -13,33 +13,26 @@ const Wrapper = styled.div`
   width: 80%;
   max-width: 720px;
   text-align: center;
-
   h1 {
     font-weight: normal;
     margin: 3rem 0;
   }
-
   figcaption {
     font-size: 0.9rem;
   }
-
   figure {
     margin-bottom: 2rem;
   }
-
   p {
     margin-bottom: 2rem;
   }
-
   li {
     margin-left: 3rem;
     margin-bottom: 1rem;
   }
-
   section {
     text-align: left;
   }
-
   a {
     color: #fff;
   }
